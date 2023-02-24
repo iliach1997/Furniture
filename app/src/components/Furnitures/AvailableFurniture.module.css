@@ -1,0 +1,29 @@
+.div{
+padding-top: 70px;
+width: 1260px;
+margin: auto;
+
+}
+.div_box{
+display: flex;
+justify-content: space-around;
+gap: 60px;
+flex-wrap: wrap;
+
+}
+@media (max-width: 1000px){
+   .div{
+    padding-top: 70px;
+    width: 600px;
+     margin: auto;
+   }
+   .div_box{
+    display: flex;
+   flex-direction: row;
+    gap: 60px;
+    flex-wrap: wrap;
+    
+    }
+  }
+
+
