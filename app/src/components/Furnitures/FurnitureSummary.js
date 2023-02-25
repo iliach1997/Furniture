@@ -4,14 +4,12 @@ import classes from './FurnitureSummary.module.css'
 const FurnitureSummary=()=>{
     return (
         <section className={classes.summary}>
-        <h2>Delicious Food, Delivered To You</h2>
+        <h2>The best designed furniture, Delivered To You</h2>
         <p>
-          Choose your favorite meal from our broad selection of available meals
-          and enjoy a delicious lunch or dinner at home.
+          Choose your favorite furniture And I will create it for you
         </p>
         <p>
-          All our meals are cooked with high-quality ingredients, just-in-time and
-          of course by experienced chefs!
+        Our furniture is made with the best material so as not to destroy nature and ensure your comfort
         </p>
       </section>
     )

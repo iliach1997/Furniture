@@ -3,26 +3,27 @@ import chear from '../assets/chair.jpg';
 import table from '../assets/table.jpg';
 import kitchen from '../assets/kitchen.jpg';
 import arm_chair from '../assets/arm-chair.jpg';
+import sofas from '../assets/sofas.jpg'
 import classes from './AvailableFurniture.module.css'
 const DUMMY_Furnitures = [
     {
       id: 'm1',
       name: 'chair',
-      description: 'Finest fish and veggies',
+      description: 'The best furniture',
       price: 322.99,
       img:[{url:chear},{url:table}]
     }, 
     {
       id: 'm2',
       name: 'table',
-      description: 'A german specialty!',
+      description: 'The best furniture',
       price: 163.5,
-      img:[{url:table},{url:table}]
+      img:[{url:table},{url:chear},]
     },
     {
       id: 'm3',
       name: 'kitchen',
-      description: 'American, raw, meaty',
+      description: 'The best furniture',
       price: 122.99,
       img:[{url:kitchen},{url:table}]
     },
@@ -32,6 +33,20 @@ const DUMMY_Furnitures = [
       description: 'Healthy...and green...',
       price: 318.99,
       img:[{url:arm_chair},{url:table}]
+    },
+    {
+      id: 'm3',
+      name: 'kitchen',
+      description: 'The best furniture',
+      price: 122.99,
+      img:[{url:kitchen},{url:table}]
+    },
+    {
+      id: 'm6',
+      name: 'Sofas',
+      description: 'The best furniture',
+      price: 2318.99,
+      img:[{url:sofas},{url:table}]
     },
     
     
